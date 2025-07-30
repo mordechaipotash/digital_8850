@@ -1,0 +1,124 @@
+{
+  "title": "근로기회 세액공제 (WOTC) 신청서",
+  "subtitle": "사전심사 통지 및 인증 요청",
+  "common": {
+    "submit": "제출",
+    "cancel": "취소",
+    "save": "저장",
+    "loading": "로딩 중...",
+    "options": {
+      "select": "선택해 주세요...",
+      "yes": "예",
+      "no": "아니오"
+    },
+    "languages": {
+      "en": "English",
+      "es": "Español",
+      "zh": "中文",
+      "fr": "Français",
+      "ht": "Kreyòl Ayisyen",
+      "ru": "Русский",
+      "ko": "한국어"
+    }
+  },
+  "form": {
+    "title": "근로기회 세액공제 (WOTC) 신청서",
+    "subtitle": "사전심사 통지 및 인증 요청",
+    "personalInfo": {
+      "title": "개인 정보",
+      "firstName": {
+        "label": "이름",
+        "placeholder": "이름을 입력하세요",
+        "tooltip": "공식 문서에 기재된 법적 이름을 입력하세요"
+      },
+      "lastName": {
+        "label": "성",
+        "placeholder": "성을 입력하세요",
+        "tooltip": "공식 문서에 기재된 법적 성을 입력하세요"
+      },
+      "dateOfBirth": {
+        "label": "생년월일",
+        "placeholder": "월/일/년",
+        "tooltip": "생년월일을 월/일/년 형식으로 입력하세요"
+      }
+    },
+    "benefits": {
+      "title": "혜택 정보",
+      "subtitle": "귀하의 혜택 상태에 대한 정보를 제공해 주세요",
+      "snap": {
+        "title": "SNAP 혜택",
+        "tooltip": "SNAP(보충영양지원 프로그램)은 도움이 필요한 가정에 영양 지원을 제공합니다",
+        "current": {
+          "label": "지난 6개월 동안 SNAP 혜택을 받은 가구의 구성원이셨습니까?",
+          "placeholder": "선택해 주세요...",
+          "tooltip": "지난 6개월 동안 귀하의 가구가 SNAP 혜택을 받았다면 '예'를 선택하세요"
+        },
+        "past": {
+          "label": "지난 5개월 중 3개월 동안 SNAP 혜택을 받았지만 현재는 받고 있지 않습니까?",
+          "placeholder": "선택해 주세요...",
+          "tooltip": "지난 5개월 중 최소 3개월 동안 SNAP 혜택을 받았지만 현재는 받고 있지 않다면 '예'를 선택하세요"
+        },
+        "recipient": {
+          "name": "주 수혜자 이름",
+          "tooltip": "SNAP 혜택의 주 수혜자 이름을 입력하세요"
+        },
+        "city": "도시",
+        "state": "주",
+        "additional": {
+          "info": "SNAP 혜택에 대한 추가 정보를 제공해 주세요"
+        }
+      },
+      "tanf": {
+        "title": "TANF 혜택",
+        "tooltip": "TANF(빈곤가정 임시지원)는 식품, 주거, 공공요금 및 비의료 비용을 지원하는 재정 지원을 제공합니다",
+        "current": {
+          "label": "지난 18개월 동안 TANF 혜택을 받은 가구의 구성원이셨습니까?",
+          "placeholder": "선택해 주세요...",
+          "tooltip": "지난 18개월 동안 귀하의 가구가 TANF 혜택을 받았다면 '예'를 선택하세요"
+        },
+        "past": {
+          "label": "지난 18개월 중 9개월 동안 TANF 혜택을 받은 가구의 구성원이셨습니까?",
+          "placeholder": "선택해 주세요...",
+          "tooltip": "지난 18개월 중 최소 9개월 동안 TANF 혜택을 받았다면 '예'를 선택하세요"
+        },
+        "recipient": {
+          "name": "주 수혜자 이름",
+          "tooltip": "TANF 혜택의 주 수혜자 이름을 입력하세요"
+        },
+        "city": "도시",
+        "state": "주",
+        "additional": {
+          "info": "TANF 혜택에 대한 추가 정보를 제공해 주세요"
+        }
+      },
+      "ssi": {
+        "title": "SSI 혜택",
+        "label": "고용 시작일 60일 전 기간 동안 보충적 소득보장(SSI) 혜택을 받은 달이 있습니까?",
+        "placeholder": "선택해 주세요...",
+        "tooltip": "SSI(보충적 소득보장)는 일반 세수로 자금을 조달하는 연방 소득 보충 프로그램입니다"
+      },
+      "unemployment": {
+        "title": "실업 혜택",
+        "label": "27주 이상 연속으로 실업 상태이며 이 기간 동안 실업 수당을 받았습니까?",
+        "placeholder": "선택해 주세요...",
+        "tooltip": "27주 이상 연속으로 실업 상태이고 이 기간 동안 실업 수당을 받았다면 '예'를 선택하세요",
+        "state": {
+          "tooltip": "실업 수당을 받은 주(State)를 선택하세요"
+        }
+      }
+    },
+    "certification": {
+      "title": "인증",
+      "text": "위증의 처벌을 받을 수 있다는 전제 하에, 본인은 이 양식을 작성하기 위해 위의 정보를 제공했으며, 본인이 아는 한 이 정보는 IRS 양식 8850 및 WOTC 프로그램과 관련된 기타 문서를 작성하는 데 사용되는 진실되고 정확한 정보이며, 본인의 고용주 또는 고용주 대리인이 일부 주에서 요구하는 대로 검증 심사 과정을 위해 수정할 수 있음을 선언합니다.",
+      "signature": {
+        "label": "서명",
+        "required": "서명이 필요합니다",
+        "clear": "서명 지우기",
+        "warning": "제출하기 전에 서명해 주세요",
+        "tooltip": "여기에 서명하여 제공한 정보가 진실하고 정확함을 확인하세요"
+      }
+    },
+    "submit": "신청서 제출",
+    "tooltip": "이 버튼을 클릭하여 신청서를 제출하세요"
+  }
+}

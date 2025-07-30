@@ -1,0 +1,122 @@
+{
+  "title": "Crédit d'Impôt pour les Opportunités d'Emploi (WOTC)",
+  "subtitle": "Avis de Pré-sélection et Demande de Certification",
+  "common": {
+    "submit": "Soumettre",
+    "cancel": "Annuler",
+    "save": "Enregistrer",
+    "loading": "Chargement...",
+    "options": {
+      "select": "Veuillez sélectionner...",
+      "yes": "Oui",
+      "no": "Non"
+    },
+    "languages": {
+      "en": "Anglais",
+      "es": "Espagnol",
+      "zh": "Chinois",
+      "fr": "Français",
+      "ht": "Créole haïtien",
+      "ru": "Russe",
+      "ko": "Coréen"
+    }
+  },
+  "form": {
+    "personalInfo": {
+      "title": "Informations Personnelles",
+      "firstName": {
+        "label": "Prénom",
+        "placeholder": "Entrez votre prénom",
+        "tooltip": "Entrez votre prénom légal tel qu'il apparaît sur vos documents officiels"
+      },
+      "lastName": {
+        "label": "Nom de Famille",
+        "placeholder": "Entrez votre nom de famille",
+        "tooltip": "Entrez votre nom de famille légal tel qu'il apparaît sur vos documents officiels"
+      },
+      "dateOfBirth": {
+        "label": "Date de Naissance",
+        "placeholder": "MM/JJ/AAAA",
+        "tooltip": "Entrez votre date de naissance au format MM/JJ/AAAA"
+      }
+    },
+    "benefits": {
+      "title": "Informations sur les Prestations",
+      "subtitle": "Veuillez fournir des informations sur votre statut de prestations",
+      "snap": {
+        "title": "Prestations SNAP",
+        "tooltip": "SNAP (Programme d'Assistance Nutritionnelle Supplémentaire) fournit des prestations nutritionnelles pour compléter le budget alimentaire des familles dans le besoin",
+        "current": {
+          "label": "Êtes-vous membre d'une famille qui a reçu des prestations SNAP au cours des 6 derniers mois?*",
+          "placeholder": "Oui/Non",
+          "tooltip": "Sélectionnez 'Oui' si votre famille a reçu des prestations SNAP au cours des 6 derniers mois"
+        },
+        "past": {
+          "label": "Avez-vous reçu des prestations SNAP pendant 3 des 5 derniers mois mais ne les recevez plus?",
+          "placeholder": "Oui/Non",
+          "tooltip": "Sélectionnez 'Oui' si vous avez reçu des prestations SNAP pendant au moins 3 mois au cours des 5 derniers mois mais ne les recevez plus actuellement"
+        },
+        "recipient": {
+          "name": "Nom du Bénéficiaire Principal",
+          "tooltip": "Entrez le nom de la personne qui est le bénéficiaire principal des prestations SNAP"
+        },
+        "city": "Ville",
+        "state": "État",
+        "additional": {
+          "info": "Veuillez fournir des informations supplémentaires sur vos prestations SNAP"
+        }
+      },
+      "tanf": {
+        "title": "Prestations TANF",
+        "tooltip": "TANF (Assistance Temporaire pour les Familles dans le Besoin) fournit une assistance financière pour aider à payer la nourriture, le logement, les services publics et les dépenses autres que médicales",
+        "current": {
+          "label": "Êtes-vous membre d'une famille qui a reçu des prestations TANF au cours des 18 derniers mois?*",
+          "placeholder": "Oui/Non",
+          "tooltip": "Sélectionnez 'Oui' si votre famille a reçu des prestations TANF au cours des 18 derniers mois"
+        },
+        "past": {
+          "label": "Étiez-vous membre d'une famille qui a reçu le TANF pendant au moins 9 mois au cours des 18 derniers mois?",
+          "placeholder": "Veuillez sélectionner...",
+          "tooltip": "Sélectionnez 'Oui' si vous avez reçu des prestations TANF pendant au moins 9 mois au cours des 18 derniers mois"
+        },
+        "recipient": {
+          "name": "Nom du Bénéficiaire Principal",
+          "tooltip": "Entrez le nom de la personne qui est le bénéficiaire principal des prestations TANF"
+        },
+        "city": "Ville",
+        "state": "État",
+        "additional": {
+          "info": "Veuillez fournir des informations supplémentaires sur vos prestations TANF"
+        }
+      },
+      "ssi": {
+        "title": "Prestations SSI",
+        "label": "Avez-vous reçu des prestations de Revenu de Sécurité Supplémentaire (SSI) pour un mois se terminant dans les 60 jours suivant votre date d'embauche?*",
+        "placeholder": "Oui/Non",
+        "tooltip": "SSI (Revenu de Sécurité Supplémentaire) est un programme fédéral de supplément de revenu financé par les recettes fiscales générales"
+      },
+      "unemployment": {
+        "title": "Prestations de Chômage",
+        "label": "Avez-vous été au chômage pendant au moins 27 semaines consécutives et avez-vous reçu des indemnités de chômage pendant cette période?",
+        "placeholder": "Veuillez sélectionner...",
+        "tooltip": "Sélectionnez 'Oui' si vous avez été au chômage pendant au moins 27 semaines consécutives et avez reçu des indemnités de chômage pendant cette période",
+        "state": {
+          "tooltip": "Sélectionnez l'état où vous avez reçu les indemnités de chômage"
+        }
+      }
+    },
+    "certification": {
+      "title": "Certification",
+      "text": "Sous peine de parjure, je déclare que j'ai fourni les informations ci-dessus pour remplir ce formulaire et que, au meilleur de ma connaissance, les informations sont vraies, correctes, pour remplir le formulaire IRS 8850 et tout autre document relatif au programme WOTC, et que des modifications peuvent être apportées par mon employeur, ou le représentant de l'employeur, afin de permettre le processus de vérification requis par certains états.",
+      "signature": {
+        "label": "Signature *",
+        "required": "La signature est requise",
+        "clear": "Effacer la Signature",
+        "warning": "Veuillez signer avant de soumettre",
+        "tooltip": "Signez dans cette zone pour confirmer que les informations que vous avez fournies sont vraies et exactes"
+      }
+    },
+    "submit": "Soumettre la Demande",
+    "tooltip": "Cliquez sur ce bouton pour soumettre votre demande"
+  }
+}

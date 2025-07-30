@@ -1,0 +1,143 @@
+{
+  "title": "Solicitud de Crédito Fiscal por Oportunidad de Trabajo (WOTC)",
+  "subtitle": "Aviso de Pre-evaluación y Solicitud de Certificación",
+  "common": {
+    "submit": "Enviar",
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "loading": "Cargando...",
+    "options": {
+      "select": "Por favor seleccione...",
+      "yes": "Sí",
+      "no": "No"
+    },
+    "languages": {
+      "en": "English",
+      "es": "Español",
+      "zh": "中文",
+      "fr": "Français",
+      "ht": "Kreyòl Ayisyen",
+      "ru": "Русский",
+      "ko": "한국어"
+    }
+  },
+  "navigation": {
+    "backToLogin": "Volver al inicio de sesión"
+  },
+  "personal": {
+    "title": "Información Personal",
+    "firstName": "Nombre",
+    "lastName": "Apellido",
+    "dob": "Fecha de nacimiento",
+    "placeholders": {
+      "firstName": "Ingrese su nombre",
+      "lastName": "Ingrese su apellido"
+    }
+  },
+  "dateFormat": {
+    "month": "MM",
+    "day": "DD",
+    "year": "YYYY"
+  },
+  "form": {
+    "select": "Por favor seleccione...",
+    "title": "Solicitud de Crédito Fiscal por Oportunidad de Trabajo (WOTC)",
+    "subtitle": "Aviso de Pre-evaluación y Solicitud de Certificación",
+    "personalInfo": {
+      "title": "Información Personal",
+      "firstName": {
+        "label": "Nombre",
+        "placeholder": "Ingrese su nombre",
+        "tooltip": "Ingrese su nombre legal como aparece en sus documentos oficiales"
+      },
+      "lastName": {
+        "label": "Apellido",
+        "placeholder": "Ingrese su apellido",
+        "tooltip": "Ingrese su apellido legal como aparece en sus documentos oficiales"
+      },
+      "dateOfBirth": {
+        "label": "Fecha de Nacimiento",
+        "placeholder": "MM/DD/AAAA",
+        "tooltip": "Ingrese su fecha de nacimiento en el formato MM/DD/AAAA"
+      }
+    },
+    "benefits": {
+      "title": "Información de Beneficios",
+      "subtitle": "Por favor proporcione información sobre su estado de beneficios",
+      "snap": {
+        "title": "Beneficios SNAP",
+        "tooltip": "SNAP (Programa de Asistencia Nutricional Suplementaria) proporciona beneficios nutricionales para complementar el presupuesto alimentario de familias necesitadas",
+        "current": {
+          "label": "¿Es usted miembro de una familia que recibió beneficios SNAP durante los últimos 6 meses?",
+          "placeholder": "Por favor seleccione...",
+          "tooltip": "Seleccione 'Sí' si su familia ha recibido beneficios SNAP en los últimos 6 meses"
+        },
+        "past": {
+          "label": "¿Recibió SNAP durante 3 de los últimos 5 meses pero ya no los recibe?",
+          "placeholder": "Por favor seleccione...",
+          "tooltip": "Seleccione 'Sí' si recibió beneficios SNAP durante al menos 3 meses en los últimos 5 meses pero ya no los recibe"
+        },
+        "recipient": {
+          "name": "Nombre del Beneficiario Principal",
+          "tooltip": "Ingrese el nombre de la persona que es el beneficiario principal de los beneficios SNAP"
+        },
+        "city": "Ciudad",
+        "state": "Estado",
+        "additional": {
+          "info": "Por favor proporcione información adicional sobre sus beneficios SNAP"
+        }
+      },
+      "tanf": {
+        "title": "Beneficios TANF",
+        "tooltip": "TANF (Asistencia Temporal para Familias Necesitadas) proporciona asistencia financiera para ayudar a pagar alimentos, vivienda, servicios públicos y gastos no médicos",
+        "current": {
+          "label": "¿Es usted miembro de una familia que recibió beneficios TANF durante los últimos 18 meses?",
+          "placeholder": "Por favor seleccione...",
+          "tooltip": "Seleccione 'Sí' si su familia ha recibido beneficios TANF en los últimos 18 meses"
+        },
+        "past": {
+          "label": "¿Fue miembro de una familia que recibió TANF durante al menos 9 meses en los últimos 18 meses?",
+          "placeholder": "Por favor seleccione...",
+          "tooltip": "Seleccione 'Sí' si recibió beneficios de TANF durante al menos 9 meses en los últimos 18 meses"
+        },
+        "recipient": {
+          "name": "Nombre del Beneficiario Principal",
+          "tooltip": "Ingrese el nombre de la persona que es el beneficiario principal de los beneficios TANF"
+        },
+        "city": "Ciudad",
+        "state": "Estado",
+        "additional": {
+          "info": "Por favor proporcione información adicional sobre sus beneficios TANF"
+        }
+      },
+      "ssi": {
+        "title": "Beneficios SSI",
+        "label": "¿Ha recibido beneficios del Seguro de Seguridad Suplementario (SSI) durante algún mes que termine dentro de los 60 días de su fecha de contratación?",
+        "placeholder": "Por favor seleccione...",
+        "tooltip": "SSI (Seguro de Seguridad Suplementario) es un programa federal de suplemento de ingresos financiado por ingresos fiscales generales"
+      },
+      "unemployment": {
+        "title": "Beneficios de Desempleo",
+        "label": "¿Estuvo desempleado durante al menos 27 semanas consecutivas y recibió compensación por desempleo durante ese tiempo?",
+        "placeholder": "Por favor seleccione...",
+        "tooltip": "Seleccione 'Sí' si estuvo desempleado durante al menos 27 semanas consecutivas y recibió compensación por desempleo durante ese tiempo",
+        "state": {
+          "tooltip": "Seleccione el estado donde recibió la compensación por desempleo"
+        }
+      }
+    },
+    "certification": {
+      "title": "Certificación",
+      "text": "Bajo pena de perjurio, declaro que proporcioné la información anterior para completar este formulario y que, según mi leal saber y entender, la información es verdadera, correcta, para completar el Formulario 8850 del IRS y cualquier otro documento relacionado con el Programa WOTC, y que mi empleador o representante del empleador puede realizar modificaciones para permitir el proceso de verificación requerido por algunos estados.",
+      "signature": {
+        "label": "Firma",
+        "required": "Se requiere firma",
+        "clear": "Borrar Firma",
+        "warning": "Por favor firme antes de enviar",
+        "tooltip": "Firme en esta área para confirmar que la información que proporcionó es verdadera y precisa"
+      }
+    },
+    "submit": "Enviar Solicitud",
+    "tooltip": "Haga clic en este botón para enviar su solicitud"
+  }
+}

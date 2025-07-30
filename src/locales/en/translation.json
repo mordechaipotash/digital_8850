@@ -1,0 +1,142 @@
+{
+  "title": "Work Opportunity Tax Credit (WOTC) Application",
+  "subtitle": "Pre-Screening Notice and Certification Request",
+  "common": {
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "save": "Save",
+    "loading": "Loading...",
+    "options": {
+      "select": "Please select...",
+      "yes": "Yes",
+      "no": "No"
+    },
+    "languages": {
+      "en": "English",
+      "es": "Español",
+      "zh": "中文",
+      "fr": "Français",
+      "ht": "Kreyòl Ayisyen",
+      "ru": "Русский",
+      "ko": "한국어"
+    }
+  },
+  "form": {
+    "title": "Work Opportunity Tax Credit (WOTC) Application",
+    "subtitle": "Pre-Screening Notice and Certification Request",
+    "personalInfo": {
+      "title": "Personal Information",
+      "firstName": {
+        "label": "First Name",
+        "placeholder": "Enter your first name",
+        "tooltip": "Enter your legal first name as it appears on your official documents"
+      },
+      "lastName": {
+        "label": "Last Name",
+        "placeholder": "Enter your last name",
+        "tooltip": "Enter your legal last name as it appears on your official documents"
+      },
+      "dateOfBirth": {
+        "label": "Date of Birth",
+        "placeholder": "MM/DD/YYYY",
+        "tooltip": "Enter your date of birth in the format MM/DD/YYYY"
+      }
+    },
+    "benefits": {
+      "title": "Benefits Information",
+      "subtitle": "Please provide information about your benefits status",
+      "snap": {
+        "title": "SNAP Benefits",
+        "tooltip": "SNAP (Supplemental Nutrition Assistance Program) provides nutrition benefits to supplement the food budget of needy families",
+        "current": {
+          "label": "Are you a member of a family that received SNAP benefits during the past 6 months?",
+          "placeholder": "Please select...",
+          "tooltip": "Select 'Yes' if your family has received SNAP benefits in the last 6 months"
+        },
+        "past": {
+          "label": "Did you get SNAP for 3 out of the past 5 months but are no longer getting them?",
+          "placeholder": "Please select...",
+          "tooltip": "Select 'Yes' if you received SNAP benefits for at least 3 months in the past 5 months but are not currently receiving them"
+        },
+        "recipient": {
+          "name": "Name of Primary Recipient",
+          "tooltip": "Enter the name of the person who is the primary recipient of the SNAP benefits"
+        },
+        "city": "City",
+        "state": "State",
+        "additional": {
+          "info": "Please provide additional information about your SNAP benefits"
+        },
+        "startDate": "Start Date",
+        "endDate": "End Date",
+        "startDate.tooltip": "Enter the date when you started receiving SNAP benefits",
+        "endDate.tooltip": "Enter the date when your SNAP benefits ended"
+      },
+      "tanf": {
+        "title": "TANF Benefits",
+        "tooltip": "TANF (Temporary Assistance for Needy Families) provides financial assistance to help pay for food, shelter, utilities, and expenses other than medical",
+        "current": {
+          "label": "Are you a member of a family that received TANF benefits for the last 18 months?",
+          "placeholder": "Please select...",
+          "tooltip": "Select 'Yes' if your family has received TANF benefits in the last 18 months"
+        },
+        "past": {
+          "label": "Were you a member of a family that received TANF for at least 9 months in the past 18 months?",
+          "placeholder": "Please select...",
+          "tooltip": "Select 'Yes' if you received TANF benefits for at least 9 months in the past 18 months"
+        },
+        "nine": {
+          "months": {
+            "tooltip": "If you received TANF benefits for any 9 months during the 18-month period ending on your hiring date, please select 'Yes'"
+          }
+        },
+        "recipient": {
+          "name": "Name of Primary Recipient",
+          "tooltip": "Enter the name of the person who is the primary recipient of the TANF benefits"
+        },
+        "city": "City",
+        "state": "State",
+        "additional": {
+          "info": "Please provide additional information about your TANF benefits"
+        },
+        "startDate": "Start Date",
+        "endDate": "End Date",
+        "startDate.tooltip": "Enter the date when you started receiving TANF benefits",
+        "endDate.tooltip": "Enter the date when your TANF benefits ended"
+      },
+      "ssi": {
+        "title": "Supplemental Security Income (SSI)",
+        "current": {
+          "label": "Have you received SSI benefits in any month ending within 60 days before your hire date?",
+          "tooltip": "SSI provides cash assistance to aged, blind, and disabled individuals who have little or no income"
+        }
+      },
+      "unemployment": {
+        "title": "Long-Term Unemployment",
+        "current": {
+          "label": "Have you been unemployed for a total of at least 27 consecutive weeks AND received unemployment compensation for at least part of that time?",
+          "tooltip": "Select 'Yes' if you were unemployed for at least 27 consecutive weeks (about 6 months) and received unemployment compensation during that period"
+        },
+        "additional": {
+          "info": "Please provide information about the state where you received unemployment compensation"
+        },
+        "state": {
+          "tooltip": "Select the state where you received unemployment compensation"
+        }
+      }
+    },
+    "certification": {
+      "title": "Certification",
+      "text": "Under penalties of perjury, I declare that I gave the above information to complete this form and that, to the best of my knowledge, the information is true, correct, to complete the IRS Form 8850 and any other documents pertaining to the WOTC Program, and that modifications can be made by my employer, or employer representative, in order to enable the verification screening process as required by some states.",
+      "signature": {
+        "label": "Signature ",
+        "required": "Signature is required",
+        "clear": "Clear Signature",
+        "warning": "Please sign before submitting",
+        "tooltip": "Sign in this area to confirm that the information you provided is true and accurate"
+      }
+    },
+    "submit": "Submit Application",
+    "tooltip": "Click this button to submit your application"
+  }
+}

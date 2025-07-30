@@ -1,0 +1,124 @@
+{
+  "title": "工作机会税收抵免 (WOTC) 申请",
+  "subtitle": "预筛选通知和认证申请",
+  "common": {
+    "submit": "提交",
+    "cancel": "取消",
+    "save": "保存",
+    "loading": "加载中...",
+    "options": {
+      "select": "请选择...",
+      "yes": "是",
+      "no": "否"
+    },
+    "languages": {
+      "en": "English",
+      "es": "Español",
+      "zh": "中文",
+      "fr": "Français",
+      "ht": "Kreyòl Ayisyen",
+      "ru": "Русский",
+      "ko": "한국어"
+    }
+  },
+  "form": {
+    "title": "工作机会税收抵免 (WOTC) 申请",
+    "subtitle": "预筛选通知和认证申请",
+    "personalInfo": {
+      "title": "个人信息",
+      "firstName": {
+        "label": "名字",
+        "placeholder": "请输入您的名字",
+        "tooltip": "请输入您的法定名字，与官方文件上的一致"
+      },
+      "lastName": {
+        "label": "姓氏",
+        "placeholder": "请输入您的姓氏",
+        "tooltip": "请输入您的法定姓氏，与官方文件上的一致"
+      },
+      "dateOfBirth": {
+        "label": "出生日期",
+        "placeholder": "月/日/年",
+        "tooltip": "请以月/日/年的格式输入您的出生日期"
+      }
+    },
+    "benefits": {
+      "title": "福利信息",
+      "subtitle": "请提供您的福利状态信息",
+      "snap": {
+        "title": "SNAP福利",
+        "tooltip": "SNAP（补充营养援助计划）为需要帮助的家庭提供营养补助",
+        "current": {
+          "label": "您是否是在过去6个月内接受过SNAP福利的家庭成员？",
+          "placeholder": "请选择...",
+          "tooltip": "如果您的家庭在过去6个月内接受过SNAP福利，请选择'是'"
+        },
+        "past": {
+          "label": "您是否在过去5个月中有3个月获得过SNAP福利，但现在已不再获得？",
+          "placeholder": "请选择...",
+          "tooltip": "如果您在过去5个月中至少有3个月接受过SNAP福利，但现在已不再接受，请选择'是'"
+        },
+        "recipient": {
+          "name": "主要受益人姓名",
+          "tooltip": "请输入SNAP福利的主要接收人姓名"
+        },
+        "city": "城市",
+        "state": "州",
+        "additional": {
+          "info": "请提供关于您的SNAP福利的其他信息"
+        }
+      },
+      "tanf": {
+        "title": "TANF福利",
+        "tooltip": "TANF（贫困家庭临时援助）提供财务援助，帮助支付食品、住房、水电和非医疗费用",
+        "current": {
+          "label": "您是否是在过去18个月内接受过TANF福利的家庭成员？",
+          "placeholder": "请选择...",
+          "tooltip": "如果您的家庭在过去18个月内接受过TANF福利，请选择'是'"
+        },
+        "past": {
+          "label": "您是否在过去18个月中有9个月领取TANF福利的家庭成员？",
+          "placeholder": "请选择...",
+          "tooltip": "如果您在过去18个月中至少有9个月领取TANF福利，请选择'是'"
+        },
+        "recipient": {
+          "name": "主要受益人姓名",
+          "tooltip": "请输入TANF福利的主要接收人姓名"
+        },
+        "city": "城市",
+        "state": "州",
+        "additional": {
+          "info": "请提供关于您的TANF福利的其他信息"
+        }
+      },
+      "ssi": {
+        "title": "SSI福利",
+        "label": "您是否在入职日期前60天内的任何月份接受过补充保障收入(SSI)福利？",
+        "placeholder": "请选择...",
+        "tooltip": "SSI（补充保障收入）是由一般税收资金资助的联邦收入补充计划"
+      },
+      "unemployment": {
+        "title": "失业福利",
+        "label": "您是否连续27周以上失业并在此期间获得失业补助？",
+        "placeholder": "请选择...",
+        "tooltip": "如果您连续27周以上失业并在此期间获得失业补助，请选择'是'",
+        "state": {
+          "tooltip": "请选择您获得失业补助的州（State）"
+        }
+      }
+    },
+    "certification": {
+      "title": "认证",
+      "text": "在作伪证的惩罚下，我声明我提供了上述信息以完成此表格，并且据我所知，这些信息是真实的、正确的，用于完成IRS表格8850和与WOTC计划相关的任何其他文件，并且我的雇主或雇主代表可以进行修改，以便按照某些州的要求进行验证筛选过程。",
+      "signature": {
+        "label": "签名",
+        "required": "需要签名",
+        "clear": "清除签名",
+        "warning": "请在提交前签名",
+        "tooltip": "在此处签名，确认您提供的信息真实准确"
+      }
+    },
+    "submit": "提交申请",
+    "tooltip": "点击此按钮提交您的申请"
+  }
+}

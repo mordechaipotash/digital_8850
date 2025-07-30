@@ -1,0 +1,136 @@
+{
+  "title": "Aplikasyon pou Kredi Taks sou Opòtinite Travay (WOTC)",
+  "subtitle": "Avi Pre-Evalyasyon ak Demann Sètifikasyon",
+  "common": {
+    "submit": "Soumèt",
+    "cancel": "Anile",
+    "save": "Sove",
+    "loading": "Chajman...",
+    "options": {
+      "select": "Tanpri chwazi...",
+      "yes": "Wi",
+      "no": "Non"
+    },
+    "languages": {
+      "en": "English",
+      "es": "Español",
+      "zh": "中文",
+      "fr": "Français",
+      "ht": "Kreyòl Ayisyen",
+      "ru": "Русский",
+      "ko": "한국어"
+    }
+  },
+  "form": {
+    "personalInfo": {
+      "title": "Enfòmasyon Pèsonèl",
+      "firstName": {
+        "label": "Prenon",
+        "placeholder": "Antre prenon ou",
+        "tooltip": "Antre prenon ou tankou li ekri sou dokiman ofisyèl ou yo"
+      },
+      "lastName": {
+        "label": "Non Fanmi",
+        "placeholder": "Antre non fanmi ou",
+        "tooltip": "Antre non fanmi ou tankou li ekri sou dokiman ofisyèl ou yo"
+      },
+      "dateOfBirth": {
+        "label": "Dat Nesans",
+        "placeholder": "MM/JJ/AAAA",
+        "tooltip": "Antre dat nesans ou nan fòma MM/JJ/AAAA"
+      }
+    },
+    "benefits": {
+      "title": "Enfòmasyon sou Benefis",
+      "subtitle": "Tanpri bay enfòmasyon sou sitiyasyon benefis ou",
+      "snap": {
+        "title": "Benefis SNAP",
+        "tooltip": "SNAP (Pwogram Asistans Nitrisyon Siplemantè) bay benefis manje pou siplemante bidjè manje fanmi ki nan bezwen yo",
+        "current": {
+          "label": "Èske w se yon manm nan yon fanmi ki te resevwa benefis SNAP pandan 6 dènye mwa yo?*",
+          "placeholder": "Tanpri chwazi...",
+          "tooltip": "Chwazi 'Wi' si fanmi w te resevwa benefis SNAP pandan 6 dènye mwa yo"
+        },
+        "past": {
+          "label": "Èske w te resevwa benefis SNAP pandan 3 nan 5 dènye mwa yo men ou pa resevwa yo ankò?",
+          "placeholder": "Tanpri chwazi...",
+          "tooltip": "Chwazi 'Wi' si w te resevwa benefis SNAP pou omwen 3 mwa nan 5 dènye mwa yo men ou pa resevwa yo ankò"
+        },
+        "recipient": {
+          "name": "Non Benefisyè Prensipal la",
+          "tooltip": "Antre non moun ki se benefisyè prensipal benefis SNAP yo"
+        },
+        "city": {
+          "label": "Vil",
+          "tooltip": "Antre vil kote w te resevwa benefis SNAP yo"
+        },
+        "state": {
+          "label": "Eta",
+          "tooltip": "Antre eta kote w te resevwa benefis SNAP yo"
+        },
+        "additional": {
+          "info": "Tanpri bay enfòmasyon adisyonèl sou benefis SNAP ou yo"
+        }
+      },
+      "tanf": {
+        "title": "Benefis TANF",
+        "tooltip": "TANF (Asistans Tanporè pou Fanmi ki nan Bezwen) bay asistans finansyè pou peye pou manje, kay, sèvis piblik, ak depans ki pa medikal",
+        "current": {
+          "label": "Èske w se yon manm nan yon fanmi ki te resevwa benefis TANF pandan 18 dènye mwa yo?*",
+          "placeholder": "Tanpri chwazi...",
+          "tooltip": "Chwazi 'Wi' si fanmi w te resevwa benefis TANF pandan 18 dènye mwa yo"
+        },
+        "past": {
+          "label": "Èske ou se yon manm nan yon fanmi ki te resevwa benefis TANF pandan nenpòt 9 mwa nan 18 mwa ki sot pase yo?",
+          "placeholder": "Tanpri chwazi...",
+          "tooltip": "Chwazi 'Wi' si ou te resevwa benefis TANF pandan omwen 9 mwa nan 18 mwa ki sot pase yo"
+        },
+        "eligibility": {
+          "label": "Èske ou te sispann kalifye pou peman TANF yo nan 2 ane ki sot pase yo?",
+          "placeholder": "Tanpri chwazi...",
+          "tooltip": "Chwazi 'Wi' si ou te vin pa kalifye pou peman TANF yo nan nenpòt ki moman nan 2 ane ki sot pase yo"
+        },
+        "recipient": {
+          "name": "Non Benefisyè Prensipal la",
+          "tooltip": "Antre non moun ki se benefisyè prensipal benefis TANF yo"
+        },
+        "city": {
+          "label": "Vil",
+          "tooltip": "Antre vil kote w te resevwa benefis TANF yo"
+        },
+        "state": {
+          "label": "Eta",
+          "tooltip": "Antre eta kote w te resevwa benefis TANF yo"
+        },
+        "additional": {
+          "info": "Tanpri bay enfòmasyon adisyonèl sou benefis TANF ou yo"
+        }
+      },
+      "ssi": {
+        "title": "Benefis SSI",
+        "label": "Èske w te resevwa Revni Sekirite Siplemantè (SSI) pou nenpòt mwa ki te fini nan 60 jou anvan dat anbochaj ou?*",
+        "placeholder": "Tanpri chwazi...",
+        "tooltip": "SSI (Revni Sekirite Siplemantè) se yon pwogram federal ki bay revni siplemantè ki finanse pa revni taks jeneral"
+      },
+      "unemployment": {
+        "title": "Benefis Chomaj",
+        "label": "Èske w te san travay pou yon total omwen 4 semèn men mwens pase 6 mwa pandan ane ki sot pase a?*",
+        "placeholder": "Tanpri chwazi...",
+        "tooltip": "Chwazi 'Wi' si w te san travay pou omwen 4 semèn men mwens pase 6 mwa pandan ane ki sot pase a"
+      }
+    },
+    "certification": {
+      "title": "Sètifika",
+      "text": "Anba peyi pèjiri, mwen deklare ke mwen bay enfòmasyon sa a pou konplete fòm sa a e ke, dapre konnen mwen, enfòmasyon sa a se vre, korek, pou konplete IRS Fòm 8850 ak nenpòt lòt dokiman ki gen rapò ak pwogram WOTC, e ke mòdifikasyon yo ka fèt pa patron mwen, oswa reprezantan patron mwen, pou pèmèt pwosedi vèfikasyon ki nesesè pa kèk eta.",
+      "signature": {
+        "label": "Siyenatè *",
+        "required": "Siyanatè obligatwa",
+        "clear": "Efase Siyenatè",
+        "warning": "Tanpri siyen avan ou soumèt",
+        "tooltip": "Siyen nan espas sa a pou konfime ke enfòmasyon ou bay se vre ak eksak"
+      }
+    },
+    "submit": "Soumèt Aplikasyon",
+    "tooltip": "Klike sou bouton sa a pou soumèt aplikasyon ou"
+  }
+}
