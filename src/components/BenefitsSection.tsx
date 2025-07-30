@@ -65,7 +65,7 @@ export const BenefitsSection: React.FC<BenefitsSectionProps> = ({ formData, onCh
                     tooltip={t('form.benefits.snap.recipient.tooltip')}
                   />
                   <FormField
-                    label={t('form.benefits.snap.city')}
+                    label={t('form.benefits.snap.city.label')}
                     type="text"
                     name="snapBenefitCity"
                     value={formData.snapBenefitCity}
@@ -136,7 +136,7 @@ export const BenefitsSection: React.FC<BenefitsSectionProps> = ({ formData, onCh
                     tooltip={t('form.benefits.tanf.recipient.tooltip')}
                   />
                   <FormField
-                    label={t('form.benefits.tanf.city')}
+                    label={t('form.benefits.tanf.city.label')}
                     type="text"
                     name="tanfBenefitCity"
                     value={formData.tanfBenefitCity}

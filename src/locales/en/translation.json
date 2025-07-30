@@ -62,8 +62,14 @@
           "name": "Name of Primary Recipient",
           "tooltip": "Enter the name of the person who is the primary recipient of the SNAP benefits"
         },
-        "city": "City",
-        "state": "State",
+        "city": {
+          "label": "City",
+          "tooltip": "Enter the city where you receive SNAP benefits"
+        },
+        "state": {
+          "label": "State",
+          "tooltip": "Select the state where you receive SNAP benefits"
+        },
         "additional": {
           "info": "Please provide additional information about your SNAP benefits"
         },
@@ -94,8 +100,14 @@
           "name": "Name of Primary Recipient",
           "tooltip": "Enter the name of the person who is the primary recipient of the TANF benefits"
         },
-        "city": "City",
-        "state": "State",
+        "city": {
+          "label": "City",
+          "tooltip": "Enter the city where you receive TANF benefits"
+        },
+        "state": {
+          "label": "State",
+          "tooltip": "Select the state where you receive TANF benefits"
+        },
         "additional": {
           "info": "Please provide additional information about your TANF benefits"
         },

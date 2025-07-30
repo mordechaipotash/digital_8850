@@ -187,18 +187,41 @@ export const saveAudioFormSubmission = async (formData: any, audioMetrics?: Audi
 
 export const saveFormSubmission = async (formData: any, signatureData: string) => {
   try {
+    console.log('Starting form submission...');
+    
     // Create a safe filename using only ASCII characters and timestamp
     const safeFileName = `${Date.now()}-${formData.firstName.replace(/[^a-zA-Z0-9]/g, '')}-${formData.lastName.replace(/[^a-zA-Z0-9]/g, '')}.png`;
+    console.log('Safe filename:', safeFileName);
+    
+    // Convert base64 to blob
+    const base64Data = signatureData.replace(/^data:image\/\w+;base64,/, '');
+    const byteCharacters = atob(base64Data);
+    const byteNumbers = new Array(byteCharacters.length);
+    for (let i = 0; i < byteCharacters.length; i++) {
+      byteNumbers[i] = byteCharacters.charCodeAt(i);
+    }
+    const byteArray = new Uint8Array(byteNumbers);
+    const blob = new Blob([byteArray], { type: 'image/png' });
+    console.log('Blob created, size:', blob.size);
+    
+    // Check current auth session
+    const { data: { session } } = await supabase.auth.getSession();
+    console.log('Current auth session:', session ? 'Has session' : 'No session (anonymous)');
     
     // First, upload the signature image to Supabase storage
+    console.log('Attempting to upload to storage...');
     const { data: uploadData, error: uploadError } = await supabase.storage
       .from('signatures')
-      .upload(safeFileName, signatureData, {
+      .upload(safeFileName, blob, {
         contentType: 'image/png',
-        cacheControl: '3600'
+        cacheControl: '3600',
+        upsert: false
       });
 
-    if (uploadError) throw uploadError;
+    if (uploadError) {
+      console.error('Storage upload error details:', uploadError);
+      throw uploadError;
+    }
 
     // Get the public URL for the uploaded signature
     const signatureUrl = supabase.storage

@@ -29,3 +29,18 @@ dist-ssr
 .env.development.local
 .env.test.local
 .env.production.local
+
+# Vercel
+.vercel
+
+# Build artifacts
+build/
+.cache/
+
+# OS files
+Thumbs.db
+
+# Package lock files (keep only one)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
