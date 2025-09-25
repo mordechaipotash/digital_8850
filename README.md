@@ -2,6 +2,9 @@
 
 **Production-ready digital implementation of IRS Form 8850** for Work Opportunity Tax Credit (WOTC) pre-screening with comprehensive internationalization support for 7 languages.
 
+![Form Overview](.github/assets/Screenshot%202025-08-29%20at%2017.35.22.png)
+*Multi-step form interface with real-time validation and language selector*
+
 ## 🎯 Overview
 
 A complete React application that digitizes the complex IRS Form 8850 federal compliance form, enabling employers to efficiently screen job candidates for WOTC eligibility across diverse linguistic populations.
@@ -28,6 +31,9 @@ Complete translations across all form fields, validation messages, and instructi
 | Korean | KO | 100% |
 | Russian | RU | 100% |
 | Chinese | ZH | 100% |
+
+![Multi-Language Support](.github/assets/Screenshot%202025-08-29%20at%2017.35.42.png)
+*Language selector with 7 complete translations for diverse populations*
 
 **Smart Language Detection**:
 - Auto-detects browser language preference
@@ -69,6 +75,9 @@ Complete translations across all form fields, validation messages, and instructi
    - Federal vs. state conviction classification
    - Release date for eligibility calculation
    - Privacy-compliant secure storage
+
+![Signature Capture](.github/assets/Screenshot%202025-08-29%20at%2017.36.16.png)
+*Touch-enabled signature canvas with clear and redo functionality*
 
 5. **Vocational Rehabilitation**
    - Agency referral documentation
