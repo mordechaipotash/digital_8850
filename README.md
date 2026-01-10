@@ -335,3 +335,14 @@ digital_8850/
 ---
 
 **Built by Mordechai Potash** | [Portfolio](https://github.com/mordechaipotash) | Production-ready since July 2025
+## WOTC Suite
+
+This is part of a complete Work Opportunity Tax Credit processing ecosystem:
+
+- **digital_8850** (this repo) - IRS Form 8850 with 7-language support
+- [audio_wotc_unemployment_verification](https://github.com/mordechaipotash/audio_wotc_unemployment_verification) - Audio verification system
+- [enterprise-tax-credit-platform](https://github.com/mordechaipotash/enterprise-tax-credit-platform) - Full processing platform with AI extraction
+
+---
+
+*Built by [Mordechai Potash](https://github.com/mordechaipotash)*
